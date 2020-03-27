@@ -1,4 +1,4 @@
-# hgx-mall1
+# hgx-mall
 
 ## Project setup
 ```

@@ -7,13 +7,89 @@
     "navigationBarTitleText": "邻寻1",
     "navigationBarTextStyle": "white"
   },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#666",
+    "selectedColor": "#56BD6E",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home",
+        "text": "首页",
+        "iconPath": "static/assets/ic_normal.png",
+        "selectedIconPath": "static/assets/ic_active.png"
+      },
+      {
+        "pagePath": "pages/mall",
+        "text": "商城",
+        "iconPath": "static/assets/ic_normal.png",
+        "selectedIconPath": "static/assets/ic_active.png"
+      },
+      {
+        "pagePath": "pages/shoppingCart",
+        "text": "购物车",
+        "iconPath": "static/assets/ic_normal.png",
+        "selectedIconPath": "static/assets/ic_active.png"
+      },
+      {
+        "pagePath": "pages/clientCenter",
+        "text": "会员中心",
+        "iconPath": "static/assets/ic_normal.png",
+        "selectedIconPath": "static/assets/ic_active.png"
+      }
+    ]
+  },
   "pages": [
     //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
-      "path": "pages/Index",
-      "name": "index",
+      "path": "pages/index",
       "style": {
-        "navigationBarTitleText": "",
+        "navigationBarTitleText": "loading过渡",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFF",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/bind",
+      "style": {
+        "navigationBarTitleText": "bind",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFF",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/home",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFF",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/mall",
+      "style": {
+        "navigationBarTitleText": "商城",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFF",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/shoppingCart",
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFF",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/clientCenter",
+      "style": {
+        "navigationBarTitleText": "会员中心",
         "enablePullDownRefresh": false,
         "navigationBarBackgroundColor": "#FFF",
         "navigationBarTextStyle": "black"

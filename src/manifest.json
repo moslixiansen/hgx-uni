@@ -59,10 +59,10 @@
   },
   "mp-weixin": {
     /* 微信小程序特有相关 */
-    "appid": "wx67c2168f566f1c22",
-    "navigateToMiniProgramAppIdList": ["wxcb25a7270a7f5307"],
+    "appid": "wx558a06cebe8cb12a",
+    "navigateToMiniProgramAppIdList": ["wx67c2168f566f1c22"],
     "setting": {
-      "urlCheck": true,
+      "urlCheck": false,
       "es6": true,
       "postcss": true,
       "minified": true

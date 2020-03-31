@@ -4,11 +4,12 @@ import api from "./api";
 import store from "./store";
 import router from "./router";
 
+// Promise.prototype.finally 的 polyfill，真机调试中不支持 es2018
+require('promise.prototype.finally').shim()
+
 Vue.config.productionTip = false;
 
-App.store = store;
 App.mpType = "app";
-App.api = api;
 
 Vue.prototype.$api = api;
 Vue.prototype.$store = store;
